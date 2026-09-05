@@ -1,7 +1,14 @@
-const greeting: string = "Hello, World!";
+import { createInterface } from "readline";
 
-function greet(name?: string): string {
-  return name ? `Hello, ${name}!` : greeting;
-}
+const rl = createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
 
-console.log(greet());
+console.log("Hello world");
+console.log("What is your name?");
+
+rl.on("line", (name: string) => {
+  console.log(`Hello ${name.trim()}`);
+  rl.close();
+});

@@ -2,7 +2,7 @@
 
 Hello World program written in TypeScript showing VS Code integration with TypeScript.
 
-The software prints Hello World on the terminal.
+The software prints Hello world on the terminal, asks for the user's name, and then prints Hello followed by that name.
 
 To show my learning and ability to use TypeScript to write a simple application as I keep learning the new language.
 
