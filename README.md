@@ -6,7 +6,7 @@ The software prints Hello world on the terminal, asks for the user's name, and t
 
 To show my learning and ability to use TypeScript to write a simple application as I keep learning the new language.
 
-[Software Demo Video](PASTE_YOUR_YOUTUBE_URL_HERE)
+[Software Demo Video](https://youtu.be/EBi9OrTQ5yU)
 
 # Development Environment
 
